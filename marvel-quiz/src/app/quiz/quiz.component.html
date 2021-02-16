@@ -1,0 +1,7 @@
+<p>quiz works!</p>
+<div class="quiz-container">
+    <div *ngFor="let question of questions; let i = index;" class="question-card">
+        <label>{{ (i + 1)}}. </label>
+        <span>{{ question.question }}</span>
+    </div>
+</div>
